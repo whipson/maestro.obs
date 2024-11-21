@@ -1,0 +1,17 @@
+Package: maestro.obs
+Title: Observability for data pipelines - an extension package for maestro
+Version: 0.0.0.9000
+Authors@R: 
+  person("Will", "Hipson", , "will.e.hipson@gmail.com", role = c("cre", "aut", "cph"), 
+        comment = c(ORCID = "0000-0002-3931-2189"))
+Description: Tools and visualizations for observing the performance of maestro pipelines.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    DiagrammeR,
+    maestro
